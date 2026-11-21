@@ -44,4 +44,4 @@ writeFileSync(
   }),
 );
 
-makeReadable(output);
+for (const name of readdirSync(output)) makeReadable(join(output, name));
