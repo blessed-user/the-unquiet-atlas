@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#122d28">
+  <link rel="icon" href="data:,">
+  <title>The Unquiet Atlas</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="archive-shell" id="archive">
+    <header class="masthead">
+      <h1><span>The Unquiet</span> Atlas</h1>
+      <div class="case-meta">
+        <p class="case-id">Expedition case FN-17 / Contact archive</p>
+        <fieldset class="difficulty-control">
+          <legend>Difficulty</legend>
+          <label><input type="radio" name="difficulty" value="easy"><span>Easy</span></label>
+          <label><input type="radio" name="difficulty" value="medium" checked><span>Medium</span></label>
+          <label><input type="radio" name="difficulty" value="hard"><span>Hard</span></label>
+        </fieldset>
+      </div>
+      <nav class="route" aria-label="Expedition route">
+        <button class="route-stop is-current" type="button" data-scene="0" aria-current="step">
+          <span class="route-index">A</span><span>Specimen table</span>
+        </button>
+        <span class="route-line" aria-hidden="true"></span>
+        <button class="route-stop" type="button" data-scene="1" disabled>
+          <span class="route-index">B</span><span>Night market</span>
+        </button>
+        <span class="route-line" aria-hidden="true"></span>
+        <button class="route-stop" type="button" data-scene="2" disabled>
+          <span class="route-index">C</span><span>Weather station</span>
+        </button>
+        <span class="route-line" aria-hidden="true"></span>
+        <button class="route-stop" type="button" data-scene="3" disabled>
+          <span class="route-index">D</span><span>Mangrove ferry</span>
+        </button>
+        <span class="route-line" aria-hidden="true"></span>
+        <button class="route-stop" type="button" data-scene="4" disabled>
+          <span class="route-index">E</span><span>Field camp</span>
+        </button>
+      </nav>
+    </header>
+
+    <main class="light-table" id="light-table">
+      <section class="contact-sheet" aria-labelledby="scene-title">
+        <header class="sheet-heading">
+          <div class="scene-copy">
+            <h2 id="scene-title">Specimen Table, Lower Ogooue</h2>
+            <p id="scene-caption">A botanist packed in haste. Restore the field record before the emulsion fades.</p>
+          </div>
+          <div class="remaining-block" aria-label="Differences remaining">
+            <span class="remaining-number" id="remaining">5</span>
+            <span class="remaining-label">observations<br>unresolved</span>
+          </div>
+        </header>
+
+        <div class="record-strip" aria-label="Scene metadata">
+          <span id="catalog-code">FN-17A</span>
+          <span id="scene-date">17 June 1978</span>
+          <span id="scene-place">0.681 S / 10.216 E</span>
+          <span>Exposure 1/60 / Archive copy</span>
+          <span id="status-note">Compare both exposures. Mark every changed detail.</span>
+        </div>
+
+        <div class="comparison" id="comparison">
+          <figure class="photo-frame" data-side="left">
+            <figcaption><span>Negative A</span><span>Reference exposure</span></figcaption>
+            <div class="exposure-wrap">
+              <canvas id="left-photo" width="800" height="500" tabindex="0" aria-label="Reference field photograph. Use the arrow keys to move the inspection reticle and Enter to mark."></canvas>
+              <div class="loupe" aria-hidden="true"><i></i></div>
+              <div class="miss-mark" aria-hidden="true"></div>
+            </div>
+            <span class="frame-code" id="left-code">A-047 / 4</span>
+          </figure>
+
+          <figure class="photo-frame" data-side="right">
+            <figcaption><span>Contact B</span><span>Recovered print</span></figcaption>
+            <div class="exposure-wrap">
+              <canvas id="right-photo" width="800" height="500" tabindex="0" aria-label="Changed field photograph. Use the arrow keys to move the inspection reticle and Enter to mark."></canvas>
+              <div class="loupe" aria-hidden="true"><i></i></div>
+              <div class="miss-mark" aria-hidden="true"></div>
+            </div>
+            <span class="frame-code" id="right-code">A-047 / 4R</span>
+          </figure>
+        </div>
+
+        <div class="evidence-line">
+          <p><span class="evidence-label">Latest notation</span><strong id="evidence-text">No observations logged yet.</strong></p>
+          <p class="field-note" id="field-note">Field note 01: Every difference appears in the same position on both prints.</p>
+        </div>
+      </section>
+
+      <aside class="toolstrip" aria-label="Archive tools">
+        <div class="instrument time-instrument">
+          <span class="instrument-label">Emulsion window</span>
+          <strong id="timer">03:00</strong>
+          <span class="meter"><i id="time-meter"></i></span>
+        </div>
+        <div class="instrument">
+          <span class="instrument-label">Field accuracy</span>
+          <strong id="accuracy">100%</strong>
+          <span id="mistakes">0 false marks</span>
+        </div>
+        <div class="instrument">
+          <span class="instrument-label">Case total</span>
+          <strong id="score">00000</strong>
+          <span id="streak">Steady hand</span>
+        </div>
+        <div class="tool-actions">
+          <button id="hint-button" type="button"><span class="keycap">H</span><span>Inspect clue</span><small id="hint-count">2 seals</small></button>
+          <button id="pause-button" type="button"><span class="keycap">P</span><span>Pause case</span></button>
+          <button id="sound-button" type="button" aria-pressed="true"><span class="keycap">M</span><span>Sound on</span></button>
+          <button id="restart-button" type="button"><span class="keycap">R</span><span>Restart sheet</span></button>
+        </div>
+      </aside>
+    </main>
+
+    <section class="case-curtain" id="case-curtain" hidden aria-labelledby="curtain-title">
+      <div class="curtain-copy">
+        <p id="curtain-code">Sheet reconciled</p>
+        <h2 id="curtain-title">The record holds.</h2>
+        <p id="curtain-text">Every active discrepancy is logged. The route continues east.</p>
+        <dl>
+          <div><dt>Accuracy</dt><dd id="curtain-accuracy">100%</dd></div>
+          <div><dt>Time</dt><dd id="curtain-time">01:42</dd></div>
+          <div><dt>Score</dt><dd id="curtain-score">04280</dd></div>
+        </dl>
+        <button id="continue-button" type="button">Open next contact sheet</button>
+      </div>
+    </section>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <p class="sr-only" id="live-status" role="status" aria-live="polite"></p>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

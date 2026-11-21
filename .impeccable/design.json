@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-21T12:53:57.8839659Z",
+  "title": "Design System: The Unquiet Atlas",
+  "extensions": {
+    "colorMeta": {
+      "blackout": {
+        "role": "primary",
+        "displayName": "Archive Blackout",
+        "canonical": "#09211e",
+        "tonalRamp": [
+          "oklch(15% 0.013 184.3)",
+          "oklch(27% 0.021 184.3)",
+          "oklch(39% 0.027 184.3)",
+          "oklch(52% 0.030 184.3)",
+          "oklch(65% 0.030 184.3)",
+          "oklch(77% 0.026 184.3)",
+          "oklch(87% 0.017 184.3)",
+          "oklch(95% 0.007 184.3)"
+        ]
+      },
+      "bottle": {
+        "role": "primary",
+        "displayName": "Bottle Green",
+        "canonical": "#12352e",
+        "tonalRamp": [
+          "oklch(15% 0.018 178.1)",
+          "oklch(27% 0.029 178.1)",
+          "oklch(39% 0.038 178.1)",
+          "oklch(52% 0.042 178.1)",
+          "oklch(65% 0.042 178.1)",
+          "oklch(77% 0.037 178.1)",
+          "oklch(87% 0.023 178.1)",
+          "oklch(95% 0.009 178.1)"
+        ]
+      },
+      "bottle-light": {
+        "role": "primary",
+        "displayName": "Lifted Bottle Green",
+        "canonical": "#1d493e",
+        "tonalRamp": [
+          "oklch(15% 0.022 174.5)",
+          "oklch(27% 0.036 174.5)",
+          "oklch(39% 0.047 174.5)",
+          "oklch(52% 0.053 174.5)",
+          "oklch(65% 0.053 174.5)",
+          "oklch(77% 0.045 174.5)",
+          "oklch(87% 0.029 174.5)",
+          "oklch(95% 0.012 174.5)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Archive Paper",
+        "canonical": "#d8c9a8",
+        "tonalRamp": [
+          "oklch(15% 0.020 86.5)",
+          "oklch(27% 0.032 86.5)",
+          "oklch(39% 0.043 86.5)",
+          "oklch(52% 0.047 86.5)",
+          "oklch(65% 0.047 86.5)",
+          "oklch(77% 0.041 86.5)",
+          "oklch(87% 0.026 86.5)",
+          "oklch(95% 0.010 86.5)"
+        ]
+      },
+      "paper-light": {
+        "role": "neutral",
+        "displayName": "Paper Highlight",
+        "canonical": "#eee3c8",
+        "tonalRamp": [
+          "oklch(15% 0.016 88.5)",
+          "oklch(27% 0.026 88.5)",
+          "oklch(39% 0.034 88.5)",
+          "oklch(52% 0.038 88.5)",
+          "oklch(65% 0.038 88.5)",
+          "oklch(77% 0.032 88.5)",
+          "oklch(87% 0.021 88.5)",
+          "oklch(95% 0.008 88.5)"
+        ]
+      },
+      "paper-dark": {
+        "role": "neutral",
+        "displayName": "Aged Paper Edge",
+        "canonical": "#ad9b75",
+        "tonalRamp": [
+          "oklch(15% 0.024 85.5)",
+          "oklch(27% 0.038 85.5)",
+          "oklch(39% 0.051 85.5)",
+          "oklch(52% 0.056 85.5)",
+          "oklch(65% 0.056 85.5)",
+          "oklch(77% 0.049 85.5)",
+          "oklch(87% 0.031 85.5)",
+          "oklch(95% 0.012 85.5)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Graphite Ink",
+        "canonical": "#17221d",
+        "tonalRamp": [
+          "oklch(15% 0.008 165.3)",
+          "oklch(27% 0.012 165.3)",
+          "oklch(39% 0.016 165.3)",
+          "oklch(52% 0.018 165.3)",
+          "oklch(65% 0.018 165.3)",
+          "oklch(77% 0.016 165.3)",
+          "oklch(87% 0.010 165.3)",
+          "oklch(95% 0.004 165.3)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Graphite",
+        "canonical": "#425148",
+        "tonalRamp": [
+          "oklch(15% 0.010 158.8)",
+          "oklch(27% 0.016 158.8)",
+          "oklch(39% 0.022 158.8)",
+          "oklch(52% 0.024 158.8)",
+          "oklch(65% 0.024 158.8)",
+          "oklch(77% 0.021 158.8)",
+          "oklch(87% 0.013 158.8)",
+          "oklch(95% 0.005 158.8)"
+        ]
+      },
+      "brass": {
+        "role": "secondary",
+        "displayName": "Oxidized Brass",
+        "canonical": "#bf9a55",
+        "tonalRamp": [
+          "oklch(15% 0.041 81.6)",
+          "oklch(27% 0.067 81.6)",
+          "oklch(39% 0.088 81.6)",
+          "oklch(52% 0.098 81.6)",
+          "oklch(65% 0.098 81.6)",
+          "oklch(77% 0.084 81.6)",
+          "oklch(87% 0.054 81.6)",
+          "oklch(95% 0.022 81.6)"
+        ]
+      },
+      "brass-light": {
+        "role": "secondary",
+        "displayName": "Lamp Brass",
+        "canonical": "#e4c97f",
+        "tonalRamp": [
+          "oklch(15% 0.041 90.1)",
+          "oklch(27% 0.067 90.1)",
+          "oklch(39% 0.088 90.1)",
+          "oklch(52% 0.098 90.1)",
+          "oklch(65% 0.098 90.1)",
+          "oklch(77% 0.084 90.1)",
+          "oklch(87% 0.054 90.1)",
+          "oklch(95% 0.022 90.1)"
+        ]
+      },
+      "grease": {
+        "role": "tertiary",
+        "displayName": "Grease Pencil",
+        "canonical": "#e24c3f",
+        "tonalRamp": [
+          "oklch(15% 0.079 28.6)",
+          "oklch(27% 0.128 28.6)",
+          "oklch(39% 0.170 28.6)",
+          "oklch(52% 0.188 28.6)",
+          "oklch(65% 0.188 28.6)",
+          "oklch(77% 0.162 28.6)",
+          "oklch(87% 0.104 28.6)",
+          "oklch(95% 0.041 28.6)"
+        ]
+      },
+      "grease-ink": {
+        "role": "tertiary",
+        "displayName": "Dried Grease Ink",
+        "canonical": "#932d29",
+        "tonalRamp": [
+          "oklch(15% 0.058 26.5)",
+          "oklch(27% 0.094 26.5)",
+          "oklch(39% 0.124 26.5)",
+          "oklch(52% 0.138 26.5)",
+          "oklch(65% 0.138 26.5)",
+          "oklch(77% 0.118 26.5)",
+          "oklch(87% 0.076 26.5)",
+          "oklch(95% 0.030 26.5)"
+        ]
+      },
+      "cyan": {
+        "role": "tertiary",
+        "displayName": "Faded Cyan Stamp",
+        "canonical": "#74b7af",
+        "tonalRamp": [
+          "oklch(15% 0.029 186.2)",
+          "oklch(27% 0.047 186.2)",
+          "oklch(39% 0.062 186.2)",
+          "oklch(52% 0.069 186.2)",
+          "oklch(65% 0.069 186.2)",
+          "oklch(77% 0.060 186.2)",
+          "oklch(87% 0.038 186.2)",
+          "oklch(95% 0.015 186.2)"
+        ]
+      },
+      "focus": {
+        "role": "secondary",
+        "displayName": "Inspection Focus",
+        "canonical": "#f2d889",
+        "tonalRamp": [
+          "oklch(15% 0.043 91.9)",
+          "oklch(27% 0.070 91.9)",
+          "oklch(39% 0.092 91.9)",
+          "oklch(52% 0.103 91.9)",
+          "oklch(65% 0.103 91.9)",
+          "oklch(77% 0.088 91.9)",
+          "oklch(87% 0.056 91.9)",
+          "oklch(95% 0.023 91.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Archive Display",
+        "purpose": "Stacked masthead identity; the completion verdict extends the same family at a larger one-off scale."
+      },
+      "headline": {
+        "displayName": "Sheet Headline",
+        "purpose": "Uppercase scene names on archive paper."
+      },
+      "title": {
+        "displayName": "Instrument Title",
+        "purpose": "Tabular timer, accuracy, score, and summary readings."
+      },
+      "body": {
+        "displayName": "Field Copy",
+        "purpose": "Instructions, evidence, notes, and control names."
+      },
+      "label": {
+        "displayName": "Catalog Label",
+        "purpose": "Tracked uppercase metadata, route stops, frame captions, and keycaps."
+      }
+    },
+    "shadows": [
+      {
+        "name": "light-table-lift",
+        "value": "0 22px 55px rgb(0 10 8 / 45%)",
+        "purpose": "Raises the complete paper-and-tool artifact above the blackout."
+      },
+      {
+        "name": "contact-print-edge",
+        "value": "0 4px 11px rgb(43 32 17 / 30%)",
+        "purpose": "Seats each dark photo frame on archive paper."
+      },
+      {
+        "name": "curtain-lift",
+        "value": "0 28px 70px rgb(0 0 0 / 55%)",
+        "purpose": "Raises the reconciled-sheet summary over the dimmed case."
+      },
+      {
+        "name": "toast-lift",
+        "value": "0 10px 30px rgb(0 0 0 / 38%)",
+        "purpose": "Separates temporary feedback from the lower-right archive edge."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-response",
+        "value": "140ms ease-out",
+        "purpose": "Button background, border, lift, and loupe-opacity responses."
+      },
+      {
+        "name": "toast-response",
+        "value": "180ms ease-out",
+        "purpose": "Toast opacity and vertical entrance."
+      },
+      {
+        "name": "reject-mark",
+        "value": "620ms ease-out",
+        "purpose": "Temporary grease-pencil X after a false observation."
+      },
+      {
+        "name": "scene-complete-reveal",
+        "value": "650ms delay",
+        "purpose": "Allows the final found mark to register before the completion curtain opens."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "toolstrip-below",
+        "value": "1180px"
+      },
+      {
+        "name": "stacked-exposures",
+        "value": "800px"
+      },
+      {
+        "name": "compact-archive",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Archive Tool Button",
+      "kind": "button",
+      "refersTo": "archive-tool",
+      "description": "Instrument-like action used for hint, pause, sound, and restart controls.",
+      "html": "<button class=\"ds-archive-tool\" type=\"button\"><span class=\"ds-keycap\">H</span><span class=\"ds-tool-label\">Inspect clue</span><small class=\"ds-tool-note\">2 seals</small></button>",
+      "css": ".ds-archive-tool { display: grid; min-width: 170px; min-height: 45px; padding: 7px 9px; border: 1px solid #5d766d; border-radius: 2px; color: #dbe3d7; background: #203d36; cursor: pointer; font: 400 16px/1.35 'Atkinson Field', sans-serif; grid-template-columns: 25px 1fr; align-items: center; gap: 8px; text-align: left; transition: background-color 140ms ease-out, border-color 140ms ease-out, transform 140ms ease-out; } .ds-archive-tool:hover:not(:disabled) { border-color: var(--brass-light, #e4c97f); background: #294a41; transform: translateY(-1px); } .ds-archive-tool:focus-visible { outline: 3px solid var(--focus, #f2d889); outline-offset: 3px; } .ds-archive-tool:active:not(:disabled) { transform: translateY(0); } .ds-archive-tool:disabled { opacity: 0.42; cursor: not-allowed; } .ds-keycap { display: grid; width: 25px; height: 25px; border: 1px solid #789589; color: var(--brass-light, #e4c97f); font: 600 11.5px/1 'Barlow Archive', sans-serif; place-items: center; grid-row: 1 / span 2; } .ds-tool-note { grid-column: 2; color: #9cad9f; font-size: 11px; line-height: 0.8; }"
+    },
+    {
+      "name": "Difficulty Control",
+      "kind": "input",
+      "refersTo": "difficulty-option",
+      "description": "Square three-part radio control for expedition difficulty.",
+      "html": "<fieldset class=\"ds-difficulty\"><legend class=\"ds-sr-only\">Difficulty</legend><label><input type=\"radio\" name=\"ds-difficulty\" value=\"easy\"><span>Easy</span></label><label><input type=\"radio\" name=\"ds-difficulty\" value=\"medium\" checked><span>Medium</span></label><label><input type=\"radio\" name=\"ds-difficulty\" value=\"hard\"><span>Hard</span></label></fieldset>",
+      "css": ".ds-difficulty { display: flex; width: max-content; margin: 0; padding: 0; border: 1px solid #587268; } .ds-difficulty label { position: relative; cursor: pointer; } .ds-difficulty label + label { border-left: 1px solid #587268; } .ds-difficulty input { position: absolute; opacity: 0; pointer-events: none; } .ds-difficulty span { display: block; min-width: 58px; padding: 4px 9px 3px; color: #93aaa0; background: transparent; font: 600 11px/1.05 'Barlow Archive', sans-serif; letter-spacing: 0.08em; text-align: center; text-transform: uppercase; } .ds-difficulty input:checked + span { color: var(--blackout, #09211e); background: var(--brass-light, #e4c97f); } .ds-difficulty input:focus-visible + span { outline: 3px solid var(--focus, #f2d889); outline-offset: 3px; } .ds-sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }"
+    },
+    {
+      "name": "Expedition Route",
+      "kind": "nav",
+      "refersTo": "route-stop",
+      "description": "Lettered archive stamps show current, completed, and locked scene states.",
+      "html": "<nav class=\"ds-route\" aria-label=\"Expedition route\"><button class=\"ds-route-stop ds-current\" type=\"button\" aria-current=\"step\"><span class=\"ds-route-index\">A</span><span class=\"ds-route-name\">Specimen table</span></button><span class=\"ds-route-line\" aria-hidden=\"true\"></span><button class=\"ds-route-stop ds-complete\" type=\"button\"><span class=\"ds-route-index\">B</span><span class=\"ds-route-name\">Night market</span></button><span class=\"ds-route-line\" aria-hidden=\"true\"></span><button class=\"ds-route-stop\" type=\"button\" disabled><span class=\"ds-route-index\">C</span><span class=\"ds-route-name\">Weather station</span></button></nav>",
+      "css": ".ds-route { display: flex; align-items: center; color: #93ada2; } .ds-route-stop { display: grid; min-width: 82px; padding: 0; border: 0; color: inherit; background: transparent; cursor: pointer; font: 600 11.5px/1.05 'Barlow Archive', sans-serif; letter-spacing: 0.06em; text-align: center; text-transform: uppercase; grid-template-rows: 28px auto; justify-items: center; } .ds-route-stop:not(:disabled):hover { color: var(--paper-light, #eee3c8); } .ds-route-stop:focus-visible { outline: 3px solid var(--focus, #f2d889); outline-offset: 3px; } .ds-route-stop:disabled { cursor: not-allowed; } .ds-route-index { display: grid; width: 24px; height: 24px; border: 1px solid currentColor; place-items: center; } .ds-current { color: var(--brass-light, #e4c97f); } .ds-current .ds-route-index { color: var(--blackout, #09211e); background: var(--brass-light, #e4c97f); } .ds-complete { color: var(--cyan, #74b7af); } .ds-route-line { width: 24px; height: 1px; margin: -20px -2px 0; background: #506b62; } @media (max-width: 520px) { .ds-route-stop { min-width: 24px; } .ds-route-name { display: none; } .ds-route-line { width: 14px; margin-right: 0; margin-left: 0; } }"
+    },
+    {
+      "name": "Contact Sheet Header",
+      "kind": "card",
+      "refersTo": "contact-sheet",
+      "description": "Warm archive-paper heading that binds scene identity and unresolved count to one physical record.",
+      "html": "<section class=\"ds-contact-sheet\"><header class=\"ds-sheet-heading\"><div><h2>Specimen Table, Lower Ogooue</h2><p>A botanist packed in haste. Restore the field record before the emulsion fades.</p></div><div class=\"ds-remaining\" aria-label=\"Differences remaining\"><strong>3</strong><span>observations<br>unresolved</span></div></header></section>",
+      "css": ".ds-contact-sheet { position: relative; min-width: 0; padding: clamp(13px, 1.35vw, 23px); overflow: hidden; color: var(--ink, #17221d); background: linear-gradient(97deg, rgb(255 255 255 / 5%), transparent 18% 80%, rgb(72 48 19 / 6%)), var(--paper, #d8c9a8); } .ds-contact-sheet::before { position: absolute; inset: 7px; border: 1px solid rgb(61 54 38 / 25%); content: ''; pointer-events: none; } .ds-sheet-heading { position: relative; z-index: 1; display: grid; min-height: 72px; padding: 0 5px 11px; border-bottom: 1px solid rgb(31 47 39 / 32%); grid-template-columns: 1fr auto; gap: 22px; align-items: end; } .ds-sheet-heading h2 { max-width: 920px; margin: 0; font: 700 clamp(1.75rem, 2.5vw, 3.15rem)/0.92 'Barlow Archive', sans-serif; letter-spacing: -0.025em; text-transform: uppercase; } .ds-sheet-heading p { max-width: 760px; margin: 5px 0 0; color: var(--ink-soft, #425148); font: 400 14px/1.35 'Atkinson Field', sans-serif; } .ds-remaining { display: grid; min-width: 162px; align-items: end; grid-template-columns: auto 1fr; gap: 8px; } .ds-remaining strong { color: var(--grease-ink, #932d29); font: 700 clamp(3.2rem, 5.2vw, 6.1rem)/0.66 'Barlow Archive', sans-serif; transform: rotate(-2deg); } .ds-remaining span { color: var(--ink-soft, #425148); font: 700 11px/1.05 'Barlow Archive', sans-serif; letter-spacing: 0.1em; text-transform: uppercase; }"
+    },
+    {
+      "name": "Photo Frame",
+      "kind": "card",
+      "refersTo": "photo-frame",
+      "description": "Dark catalogued 8:5 print frame with a persistent grease-pencil observation.",
+      "html": "<figure class=\"ds-photo-frame\"><figcaption><span>Negative A</span><span>Reference exposure</span></figcaption><div class=\"ds-exposure\"><span class=\"ds-found\">1</span></div><span class=\"ds-frame-code\">A-047 / 4</span></figure>",
+      "css": ".ds-photo-frame { position: relative; min-width: 0; margin: 0; padding: 8px 8px 19px; color: #d8d0bc; background: #18201d; box-shadow: 0 4px 11px rgb(43 32 17 / 30%); } .ds-photo-frame figcaption { display: flex; height: 22px; align-items: start; justify-content: space-between; font: 600 11px/1.05 'Barlow Archive', sans-serif; letter-spacing: 0.11em; text-transform: uppercase; } .ds-photo-frame figcaption span:last-child { color: #7f968d; } .ds-exposure { position: relative; width: 100%; aspect-ratio: 8 / 5; overflow: hidden; background: radial-gradient(circle at 58% 44%, #b79c68 0 8%, transparent 8.5%), linear-gradient(100deg, #d4c39b 0 29%, #294e40 29% 100%); } .ds-found { position: absolute; top: 42%; left: 29%; display: grid; width: 42px; height: 34px; border: 4px solid var(--grease, #e24c3f); border-radius: 50%; color: var(--paper-light, #eee3c8); background: transparent; font: 700 11px/1 'Barlow Archive', sans-serif; place-items: center; transform: rotate(-8deg); } .ds-found::after { position: absolute; top: -12px; right: -8px; display: grid; width: 20px; height: 20px; border-radius: 50%; content: '1'; color: var(--paper-light, #eee3c8); background: var(--grease, #e24c3f); place-items: center; } .ds-frame-code { position: absolute; right: 9px; bottom: 4px; color: #87938b; font: 600 9px/1 'Barlow Archive', sans-serif; letter-spacing: 0.11em; }"
+    },
+    {
+      "name": "Instrument Reading",
+      "kind": "custom",
+      "refersTo": "instrument-reading",
+      "description": "Compact tabular status block for time, accuracy, and score.",
+      "html": "<div class=\"ds-instrument\"><span class=\"ds-instrument-label\">Emulsion window</span><strong>01:53</strong><span class=\"ds-meter\"><i></i></span></div>",
+      "css": ".ds-instrument { width: 160px; padding-bottom: 12px; border-bottom: 1px solid rgb(173 194 180 / 18%); color: #d9ddce; background: #172d28; font-family: 'Atkinson Field', sans-serif; } .ds-instrument-label { display: block; margin-bottom: 2px; color: #87a59a; font: 600 11px/1.05 'Barlow Archive', sans-serif; letter-spacing: 0.12em; text-transform: uppercase; } .ds-instrument strong { display: block; color: var(--brass-light, #e4c97f); font: 700 1.85rem/1 'Barlow Archive', sans-serif; font-variant-numeric: tabular-nums; letter-spacing: 0.03em; } .ds-meter { display: block; width: 100%; height: 3px; margin-top: 8px; overflow: hidden; background: #071b18; } .ds-meter i { display: block; width: 62%; height: 100%; background: var(--brass, #bf9a55); }"
+    },
+    {
+      "name": "Inspection Loupe",
+      "kind": "custom",
+      "refersTo": "inspection-loupe",
+      "description": "Shared circular reticle placed at matching coordinates across both exposures.",
+      "html": "<div class=\"ds-loupe-stage\"><span class=\"ds-loupe\" aria-hidden=\"true\"><i></i></span></div>",
+      "css": ".ds-loupe-stage { position: relative; width: 180px; aspect-ratio: 8 / 5; background: #24483d; } .ds-loupe { position: absolute; top: 50%; left: 50%; width: 52px; height: 52px; border: 1px solid rgb(247 224 150 / 85%); border-radius: 50%; box-shadow: 0 0 0 1px rgb(8 25 21 / 80%), inset 0 0 14px rgb(247 224 150 / 20%); transform: translate(-50%, -50%); } .ds-loupe::before, .ds-loupe::after, .ds-loupe i::before, .ds-loupe i::after { position: absolute; content: ''; background: rgb(247 224 150 / 78%); } .ds-loupe::before, .ds-loupe::after { top: 50%; width: 8px; height: 1px; } .ds-loupe::before { left: -5px; } .ds-loupe::after { right: -5px; } .ds-loupe i::before, .ds-loupe i::after { left: 50%; width: 1px; height: 8px; } .ds-loupe i::before { top: -5px; } .ds-loupe i::after { bottom: -5px; }"
+    },
+    {
+      "name": "Completion Action",
+      "kind": "button",
+      "refersTo": "completion-action",
+      "description": "Single dark action that advances or restarts from the completion curtain.",
+      "html": "<button class=\"ds-completion-action\" type=\"button\">Open next contact sheet</button>",
+      "css": ".ds-completion-action { min-width: 220px; padding: 12px 18px; border: 1px solid var(--ink, #17221d); border-radius: 2px; color: var(--paper-light, #eee3c8); background: var(--ink, #17221d); cursor: pointer; font: 400 16px/1.35 'Atkinson Field', sans-serif; text-align: center; transition: background-color 140ms ease-out, transform 140ms ease-out; } .ds-completion-action:hover { background: var(--bottle-light, #1d493e); transform: translateY(-1px); } .ds-completion-action:focus-visible { outline: 3px solid var(--focus, #f2d889); outline-offset: 3px; } .ds-completion-action:active { transform: translateY(0); }"
+    },
+    {
+      "name": "Archive Toast",
+      "kind": "custom",
+      "refersTo": "toast",
+      "description": "Polite lower-right feedback for findings, misses, sound, and restart state.",
+      "html": "<div class=\"ds-toast ds-visible\" role=\"status\">Specimen number logged / +680</div>",
+      "css": ".ds-toast { max-width: 340px; padding: 11px 15px; border: 1px solid var(--brass, #bf9a55); color: var(--paper-light, #eee3c8); background: #0a2621; box-shadow: 0 10px 30px rgb(0 0 0 / 38%); opacity: 0; pointer-events: none; transform: translateY(8px); transition: opacity 180ms ease-out, transform 180ms ease-out; font: 400 16px/1.35 'Atkinson Field', sans-serif; } .ds-toast.ds-visible { opacity: 1; transform: translateY(0); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Working Conservator's Light Table",
+    "overview": "The interface reads as one recovered, catalogued artifact under examination. A deep bottle-green blackout surrounds a warm paper contact sheet; the paired exposures, evidence copy, route, and tools all feel attached to that working surface rather than arranged as dashboard cards.\n\nThe system is dense, documentary, and tactile without sacrificing state legibility. Condensed archival typography carries titles, stamps, labels, and instruments, while a highly readable body face handles instructions and evidence. Brass, faded cyan, and grease-pencil red behave as material state signals, not decorative accent color.",
+    "keyCharacteristics": [
+      "A warm physical contact sheet dominates a deep bottle-green blackout.",
+      "Archival labels, route stamps, and tabular instruments carry game status without a floating HUD.",
+      "Paired 8:5 exposures, grease-pencil findings, and a shared loupe make comparison the focal interaction.",
+      "Brass, cyan, and red are state-bearing accents, never ambient decoration."
+    ],
+    "rules": [
+      {
+        "name": "The Evidence Color Rule",
+        "body": "Grease red is reserved for observations, false marks, and urgent time pressure; brass indicates selection and instrumentation; faded cyan marks archive identity or completion.",
+        "section": "colors"
+      },
+      {
+        "name": "The Warm Paper, Cold Blackout Rule",
+        "body": "Working content belongs on paper or bottle green. Do not introduce generic white, gray, or blue application surfaces.",
+        "section": "colors"
+      },
+      {
+        "name": "The Stamped Hierarchy Rule",
+        "body": "Barlow Archive owns uppercase identity, labels, and instrument numbers; Atkinson Field owns readable instructions, evidence, and actions. Do not swap their jobs.",
+        "section": "typography"
+      },
+      {
+        "name": "The Physical Stack Rule",
+        "body": "Shadows describe paper, print, or temporary overlay height. Resting labels, controls, and route stamps remain flat and bordered.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the paired documentary exposures as the dominant visual and interaction target.",
+      "Do use brass for selection and instruments, cyan for archival completion, and grease red for evidence or urgency.",
+      "Do preserve condensed uppercase labels, tabular readings, fine rules, and clipped square geometry.",
+      "Do pair color states with numerals, text, rings, fills, or meter shape so meaning never depends on color alone.",
+      "Do stack full-width exposures at 800px and below and preserve the lettered route at the smallest width.",
+      "Do retain visible focus, live announcements, reduced-motion behavior, and the increased-contrast overrides."
+    ],
+    "donts": [
+      "Don't turn the experience into a centered game card, decorative hero, or floating HUD.",
+      "Don't introduce rounded pills, soft SaaS cards, glass effects, or generic white and gray surfaces.",
+      "Don't shrink both exposures into untappable thumbnails to preserve a desktop composition.",
+      "Don't use grease red as ambient decoration; its scarcity carries evidence and urgency.",
+      "Don't hide progress, lock, pause, found, hint, or error state behind color alone."
+    ]
+  }
+}
